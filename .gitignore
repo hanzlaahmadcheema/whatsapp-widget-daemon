@@ -1,0 +1,47 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Runtime state (user-specific, never commit)
+session/
+state.json
+contacts.json
+baileys_store.json
+
+# Environment files
+.env
+.env.*
+.env.local
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.settings/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test / Coverage
+coverage/
+.nyc_output/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# npm artifacts
+*.tgz
+.npm
+
+# Scratch / temp
+scratch/

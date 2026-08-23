@@ -1,0 +1,14 @@
+[Unit]
+Description=WhatsApp Desktop Widget Daemon
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=%NODE_EXEC% %DAEMON_DIR%/dist/index.js
+WorkingDirectory=%DAEMON_DIR%
+Restart=on-failure
+RestartSec=5s
+Environment=NODE_ENV=production
+
+[Install]
+WantedBy=default.target
